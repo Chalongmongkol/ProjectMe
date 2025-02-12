@@ -41,15 +41,20 @@
     gap: 8vw;
 }
 
-.hammer{
+.game{
     width:15vw ;
     height: 15vw;
-    background-color: blue;
     border: 1px solid black;
+    background: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
 }
 
-.hammer:hover{
+.game:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .scorebar{
@@ -63,7 +68,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     z-index: 1000;
+}
+
+.game-img{
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
 }
