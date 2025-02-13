@@ -12,18 +12,18 @@ function addRound(){
 
 function setplay(bot,game){
     if(game==0){
-        document.getElementById("me").innerHTML = "<img src='picture/ค้อน.png' class='game-img'>"
+        document.getElementById("me").innerHTML = "<img src='picture/rock.png' class='game-img'>"
     }else if(game==1){
-        document.getElementById("me").innerHTML = "<img src='picture/กรรไกร.png' class='game-img'>"
+        document.getElementById("me").innerHTML = "<img src='picture/scissors.png' class='game-img'>"
     }else{
-        document.getElementById("me").innerHTML = "<img src='picture/กระดาษ.png' class='game-img'>"
+        document.getElementById("me").innerHTML = "<img src='picture/paper.png' class='game-img'>"
     }
     if(bot==0){
-        document.getElementById("bot").innerHTML = "<img src='picture/ค้อน.png' class='game-img'>"
+        document.getElementById("bot").innerHTML = "<img src='picture/rock.png' class='game-img'>"
     }else if(bot==1){
-        document.getElementById("bot").innerHTML = "<img src='picture/กรรไกร.png' class='game-img'>"
+        document.getElementById("bot").innerHTML = "<img src='picture/scissors.png' class='game-img'>"
     }else{
-        document.getElementById("bot").innerHTML = "<img src='picture/กระดาษ.png' class='game-img'>"
+        document.getElementById("bot").innerHTML = "<img src='picture/paper.png' class='game-img'>"
     }
 }
 
@@ -48,7 +48,9 @@ function playGame(game){
     } 
     setplay(bot,game)
     addRound()
-    document.getElementById("score").innerHTML = "Round : "+round+"  Win :"+winscore+"  Lose :"+losescore+"   Draw : "+alwaysscore
+   
+document.getElementById("score").innerHTML = "Scoreboard<br>Round : "+round+"<br>Win : "+winscore+"<br>Lose : "+losescore+"<br>Draw : "+alwaysscore
 }
 
-document.getElementById("score").innerHTML = "Round : "+round+"  Win :"+winscore+"  Lose :"+losescore+"  Draw : "+alwaysscore
+document.getElementById("score").innerHTML = "Scoreboard<br>Round : "+round+"<br>Win : "+winscore+"<br>Lose : "+losescore+"<br>Draw : "+alwaysscore
+document.getElementById("result").innerHTML = "?"

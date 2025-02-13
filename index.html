@@ -4,49 +4,51 @@
 
 <body>
     <div class="scorebar">
-        <h1 id="score"></h1> 
+        <h1 id="score" class="scorefront"></h1>
     </div>
-    <!-- <nav class="navbar">
-        <div class="container">
-            <a class="navbar-brand" href="/">GachaMe</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbar1" class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
+    <div class="section">
+        <h1 class="sectionfront">Rock, Paper, Scissors</h1>
+    </div>
+    <nav class="navbar">
+        <div class="navcontainer">
+            <div class="navbaricon">
+                <a class="nav-link" href="/">GameMe</a>
+            </div>
+            <div id="navbar1" class="navbar1">
+                <ul class="navbaricon">
                     <li class="nav-item">
-                        <a class="nav-link" href="/about-me">About me</a>
+                        <a class="nav-link" href="#">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/updates">Updates</a>
+                        <a class="nav-link" href="#">Other Game</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
     <div class="bg">
         <h1 id="score"></h1>
         <div class="game-container">
             <div class="game-picture">
-                <div class="game" id="me">
+                <div class="game1" id="me">
                     <img src="picture/question.jpg" class="game-img">
                 </div>
                 <div class="result">
-                    <h1 id="result"></h1>
+                    <p id="result" class="result-p"></p>
                 </div>
-                <div class="game" id="bot">
+                <div class="game1" id="bot">
                     <img src="picture/question.jpg" class="game-img">
                 </div>
             </div>
             <div class="game-play">
                 <div class="game" onclick="playGame(0)" >
-                    <img src="picture/ค้อน.png" class="game-img">
+                    <img src="picture/rock.png" class="game-img">
                 </div>
                 <div class="game" onclick="playGame(1)">
-                    <img src="picture/กรรไกร.png" class="game-img">
+                    <img src="picture/scissors.png" class="game-img">
                 </div>
                 <div class="game" onclick="playGame(2)">
-                    <img src="picture/กระดาษ.png" class="game-img">
+                    <img src="picture/paper.png" class="game-img">
                 </div>
             </div>
         </div>
