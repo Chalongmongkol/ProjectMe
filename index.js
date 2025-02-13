@@ -2,9 +2,16 @@ var round = 0
 var winscore = 0
 var losescore = 0
 var alwaysscore = 0
-var myplay = ""
-var botplay = ""
+
 // 0 ค้อน   1 กรรไกร    2 กระดาษ
+
+function closeModal(){
+    document.getElementById("modal").style.display = "none";
+}
+
+function openModal(){
+    document.getElementById("modal").style.display = "flex";
+}
 
 function addRound(){
     round += 1
@@ -33,6 +40,7 @@ function playGame(game){
     if(game=="0"&&bot==1){
         winscore += 1
         document.getElementById("result").innerHTML = "Win"
+        
     }else if(game=="1"&&bot==2){
         winscore += 1
         document.getElementById("result").innerHTML = "Win"
