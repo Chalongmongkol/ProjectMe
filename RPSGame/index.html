@@ -1,0 +1,86 @@
+<head>
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="scorebar">
+        <h1 id="score" class="scorefront"></h1>
+    </div>
+    <div class="section">
+        <h1 class="sectionfront">Rock, Paper, Scissors</h1>
+    </div>
+    <nav class="navbar">
+        <div class="navcontainer">
+            <div class="navbaricon">
+                <a class="nav-link" href="/Home/index.html">GameMe</a>
+            </div>
+            <div id="navbar1" class="navbar1">
+                <ul class="navbaricon">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg">
+        <h1 id="score"></h1>
+        <div class="game-container">
+            <div class="game-picture">
+                <div class="game1" id="me">
+                    <img src="/picture/question.jpg" class="game-img">
+                </div>
+                <div class="result">
+                    <p id="result" class="result-p"></p>
+                </div>
+                <div class="game1" id="bot">
+                    <img src="/picture/question.jpg" class="game-img">
+                </div>
+            </div>
+            <div class="game-play">
+                <div class="game" onclick="playGame(0)" >
+                    <img src="/picture/rock.png" class="game-img">
+                </div>
+                <div class="game" onclick="playGame(1)">
+                    <img src="/picture/scissors.png" class="game-img">
+                </div>
+                <div class="game" onclick="playGame(2)">
+                    <img src="/picture/paper.png" class="game-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="log" id="log">
+        <img src="/picture/log.jpg" class="logpic" onclick="openModal()">
+    </div>
+    <script src="index.js"></script>
+    <div class="modal-bg" id="modal" style="display: none;" >
+        <div class="modal-page">
+            <div class="close-modal">
+                <img src="/picture/close.png" class="closepic" onclick="closeModal()">
+            </div>
+            <p>Rule</p>
+            <div class="log-list-page">
+            <div class="log-list" id="log-list">
+                <img src="/picture/Scissors.png" class="log-img">
+                <p>Win</p>
+                <img src="/picture/paper.png" class="log-img">
+            </div>
+            <div class="log-list" id="log-list">
+                <img src="/picture/paper.png" class="log-img">
+                <p>Win</p>
+                <img src="/picture/rock.png" class="log-img">
+            </div>
+            <div class="log-list" id="log-list">
+                <img src="/picture/rock.png" class="log-img">
+                <p>Win</p>
+                <img src="/picture/Scissors.png" class="log-img">
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
