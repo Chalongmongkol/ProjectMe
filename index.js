@@ -41,14 +41,14 @@ function playGame(game){
         document.getElementById("result").innerHTML = "Win"
     }else if(game==bot){
         alwaysscore += 1
-        document.getElementById("result").innerHTML = "alway"
+        document.getElementById("result").innerHTML = "Draw"
     }else{
         losescore += 1
         document.getElementById("result").innerHTML = "lose"
     } 
     setplay(bot,game)
     addRound()
-    document.getElementById("score").innerHTML = "Round : "+round+"  Win :"+winscore+"  Lose :"+losescore+"   Always : "+alwaysscore
+    document.getElementById("score").innerHTML = "Round : "+round+"  Win :"+winscore+"  Lose :"+losescore+"   Draw : "+alwaysscore
 }
 
-document.getElementById("score").innerHTML = "Round : "+round+"  Win :"+winscore+"  Lose :"+losescore+"   Always : "+alwaysscore
+document.getElementById("score").innerHTML = "Round : "+round+"  Win :"+winscore+"  Lose :"+losescore+"  Draw : "+alwaysscore

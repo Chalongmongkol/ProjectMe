@@ -47,7 +47,7 @@
 .game{
     width:15vw ;
     height: 15vw;
-    background: rgba(0, 0, 0, 0.6); 
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,8 +78,9 @@
 
 .game-img{
     height: 80%;
-    width: 70%;
+    width: 80%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .result{
@@ -92,4 +93,31 @@
     text-align: center;
     border-radius: 20%;
     color: white;
+}
+
+.log{
+    position: absolute;
+    right: 0.8%; 
+    top: 50%;
+    transform: translateY(-50%);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logpic{
+    width: 6vw;
+    height: 6vw; 
+    border-radius: 50%;
+}
+.logpic:hover{
+    cursor: pointer;
+}
+
+.modal{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
