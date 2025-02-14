@@ -1,2 +1,2 @@
 # ProjectMe
-โปรเจคทำเล่นๆ
+Play on computer only
