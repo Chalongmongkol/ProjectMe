@@ -210,8 +210,8 @@ ul {
 }
 
 .log-list{
-    width: 90%;
-    height: 30%;
+    width: 40vw;
+    height: 9vw;
     background-color: #343541;
     margin-top: 2vw;
     display: flex;
@@ -233,6 +233,8 @@ ul {
     height: 80%;
     justify-items: center;
     overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .log-list-page::-webkit-scrollbar {
