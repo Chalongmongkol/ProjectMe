@@ -165,6 +165,15 @@
 .nav-link{
     color: white;
 }
+
+.nav-link-purpose{
+    color: white;
+}
+.nav-link:hover{
+    color: #abafb3;
+}
+
+
 ul {
     list-style-type: none;
 }

@@ -25,11 +25,20 @@
     height: 4vw;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.4vw;
+    font-size: 1.4vw; 
+    color: white;
 }
 .nav-link{
     color: white;
 }
+
+.nav-link-purpose{
+    color: white;
+}
+.nav-link:hover{
+    color: #abafb3;
+}
+
 ul {
     list-style-type: none;
 }

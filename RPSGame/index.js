@@ -61,15 +61,15 @@ function addloglist(me,bot){
     }
     //lose rock paper
     else if(me=="0"&&bot==2){
-        document.getElementById("log-list-page").innerHTML += "<div class='log-list' ><img src='/picture/rock.png' class='log-img'><p>Draw</p><img src='/picture/paper.png' class='log-img'></div>"
+        document.getElementById("log-list-page").innerHTML += "<div class='log-list' ><img src='/picture/rock.png' class='log-img'><p>Lose</p><img src='/picture/paper.png' class='log-img'></div>"
     }
     //lose Scissors rock
     else if(me=="1"&&bot==0){
-        document.getElementById("log-list-page").innerHTML += "<div class='log-list' ><img src='/picture/Scissors.png' class='log-img'><p>Draw</p><img src='/picture/rock.png' class='log-img'></div>"
+        document.getElementById("log-list-page").innerHTML += "<div class='log-list' ><img src='/picture/Scissors.png' class='log-img'><p>Lose</p><img src='/picture/rock.png' class='log-img'></div>"
     }
     //lose paper Scissors
     else{
-        document.getElementById("log-list-page").innerHTML += "<div class='log-list' ><img src='/picture/paper.png' class='log-img'><p>Draw</p><img src='/picture/Scissors.png' class='log-img'></div>"
+        document.getElementById("log-list-page").innerHTML += "<div class='log-list' ><img src='/picture/paper.png' class='log-img'><p>Lose</p><img src='/picture/Scissors.png' class='log-img'></div>"
     }
 }
 
