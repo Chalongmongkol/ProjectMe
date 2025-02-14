@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: "Afacad Flux", serif;
+
 }
 
 .bg{
@@ -148,7 +151,7 @@
 .navbaricon{
     display: flex;
     gap: 3vw;
-    margin: 2vw;
+    margin: 7vw;
     color: white;
 }
 .navcontainer{
