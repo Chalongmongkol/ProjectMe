@@ -1,133 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+
     font-family: "Afacad Flux", serif;
 }
-.navbar{
-    background-color: #212529;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
 
-.navbaricon{
-    display: flex;
-    gap: 3vw;
-    margin: 7vw;
-}
-.navcontainer{
-    display: flex;
-    height: 4vw;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.4vw; 
-    color: white;
-}
-.nav-link{
-    color: white;
-}
 
-.nav-link-purpose{
-    color: white;
-}
-.nav-link:hover{
-    color: #abafb3;
-}
 
-ul {
-    list-style-type: none;
-}
-
-.bg{
-    width: 100%;
-    height: 95%;
-    top: 0;
-    background-color: #343541;
-    background-position: center; 
-    align-items: center;
-    justify-items: center;
-}
-
-.game-container{
-    width: 55%;
-    height: 50%;
-    display: flex;
-    grid-template-columns: repeat(2, 1fr); 
-    justify-items: center;
-    background-color: red;
-}
-
-.game-list{
-    width: 35vw;
-    height: 20vw;
-    background-color: antiquewhite;
-    border-radius: 1%;
-}
-
-.game-list:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-}
-
-.meesage{
-    width: 50%;
-    height: 5vw;
-    top: 5vw;
-    left: 25vw;
-    text-align: center;
-    color: white;
-    padding-top: 5.2vw;
-}
-
-.picgame{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.playbutton{
-    width: 50%;
-    height: 5vw;
-    top: 5vw;
-    left: 25vw;
-    text-align: center;
-    margin-top: 3vw;
-}
-
-.Start{
-    width: 20vw;
-    height: 4vw;
-    background-color: red;
-    color: white;
-    border-radius: 5%
-}
-
-.Start:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-}
-
-.meesage{
-    font-size: 1.7vw;
-    text-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3), 
-                 2px 2px 5px rgba(255, 255, 255, 0.8);
-}
-
-.bg-text{
-    background-color: yellow;
-    justify-items: center;
-    align-items: center;
-}
-
-.containertext{
-    text-align: center;
-    width: 80%;
-    font-size: 1.5vw;
-
+.scale-hover:hover {
+    transform: scale(1.1); 
+    
 }
